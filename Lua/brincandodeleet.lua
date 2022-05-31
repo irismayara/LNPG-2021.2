@@ -7,10 +7,10 @@ function isEmpty(string)
 end
 
 function hasNumber(string)
-    if(string.match(string, "%d") == nil) then
-        return false
-    else
+    if(string.match(string, "%d")) then -- ola12 mundo
         return true
+    else
+        return false
     end
 end
 
